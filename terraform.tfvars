@@ -1,0 +1,17 @@
+project_id       = "deep-chimera-467216-u3"
+region           = "us-east1"
+vpc              = "default"
+subnet_name      = "default"
+secret_name      = "db1user"
+sql_instance_name = "terry-sql-module"
+database_version = "POSTGRES_14"
+db_type          = "db-f1-micro"
+db_names         = ["customer-db","payment-db"]
+db_username      = "admin"
+bucket_name       = "terry-module-bucket"
+location         = "US"
+vm_name          = "terry-vm-module"
+machine_type     = "e2-small"
+zone             = "us-east1-c"
+disk_size        = 20
+fw_rule          = "allow-http"
